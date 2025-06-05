@@ -1,0 +1,14 @@
+{
+  "name": "lead_tracker-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate-config": "echo \"export const FIREBASE_DATABASE_URL = '$FIREBASE_DATABASE_URL';\" > config.js",
+    "build": "npm run generate-config && cp -R src/* dist/"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
